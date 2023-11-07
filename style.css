@@ -22,12 +22,16 @@
     height: 5vh;
     display: flex;
     align-items: center;
+    width: 100%;
+    column-gap: 20px;
 
 }
 
 .header a {
     text-decoration: none;
     color: white;
+    font-weight: bold;
+
 }
 
 .social {
@@ -35,6 +39,11 @@
     display: flex;
     align-items: center;
     column-gap: 10px;
+}
+
+.social a {
+    color: white;
+    font-size: 20px;
 }
 
 .line {
@@ -74,6 +83,11 @@
 /* nav */
 
 /* hero */
+
+.heroContainer {
+    background-color: #ff4c3b;
+}
+
 .hero {
     display: flex;
     width: 1170px;
@@ -102,6 +116,25 @@
 .title {
     display: flex;
     column-gap: 15px;
+    margin: 10px 0 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.title .h1 {
+    color: white;
+}
+
+.title .h2 {
+    color: yellow;
+}
+
+.text {
+    color: white;
+    width: 70%;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
 }
 
 .right-container {
@@ -112,16 +145,112 @@
 
 .right {
     display: flex;
-    /* width: 50%; */
     height: 100%;
     align-items: center;
+    position: relative;
 }
 
 .circle {
-    background-color: yellow;
+    background-color: #e5ff54;
     width: 500px;
     height: 500px;
     border-radius: 50%;
 }
 
+.girl {
+    display: flex;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 40px;
+}
+
+.girl img {
+    display: inline-block;
+    width: 364px;
+    height: 807px;
+}
+
+
+.btn {
+    width: 180px;
+    height: 50px;
+    border: none;
+    color: #ff4c3b;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
 /* hero */
+
+/* Featured Section Start */
+.featuredContainer {
+    width: 100%;
+}
+
+.featuredproducts {
+    display: flex;
+    width: 100%;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    font-weight: bold;
+
+}
+
+.featured {
+    color: black;
+}
+
+.products {
+    color: red;
+}
+
+/* Featured Section End */
+
+/* Products Section Start */
+.productContainer {
+    width: 1170px;
+    height: auto;
+    margin: auto;
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.card {
+    width: 350px;
+    height: 150px;
+    display: flex;
+
+}
+
+
+.card img {
+    width: 150px;
+    height: 150px;
+}
+
+.pri a {
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart {
+    width: 100px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+/* Products Section end */
