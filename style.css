@@ -223,9 +223,15 @@
 }
 
 .card {
-    width: 350px;
+    width: 380px;
     height: 150px;
     display: flex;
+
+}
+
+.pri {
+    display: block;
+    margin: auto;
 
 }
 
@@ -251,6 +257,7 @@
     border: none;
     font-size: 15px;
     font-weight: bolder;
+    margin-top: 15px;
 }
 
 /* Products Section end */
